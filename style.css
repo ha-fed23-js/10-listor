@@ -1,0 +1,13 @@
+.drink-list {
+	margin: 1em;
+	padding: 1em;
+	box-shadow: 0 0 2em 0.5em pink;
+}
+
+.drink-list > li {
+	display: flex;
+	flex-direction: row;
+}
+.drink-list > li > span:first-child {
+	flex-grow: 1;
+}
